@@ -5,6 +5,7 @@ import Highlights from "./components/Highlights";
 import Featured from "./components/featured";
 import Discounted from "./components/Discounted";
 import Explore from "./components/Explore";
+import Footer from "./components/Footer";
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
       <Featured></Featured>
       <Discounted></Discounted>
       <Explore></Explore>
+      <Footer></Footer>
     </div>
   );
 }
