@@ -15,7 +15,7 @@ function App() {
       <Nav></Nav>
       <Route path="/" exact component={Home}></Route>
       <Route path="/books" exact render={() =><Books books={books}></Books>}></Route>
-      <Route path="/books/1" exact render={() => <BookInfo books={books}></BookInfo>}></Route>
+      <Route path="/books/:id" exact render={() => <BookInfo books={books}></BookInfo>}></Route>
       <Footer></Footer>
     </div>
     </Router>
